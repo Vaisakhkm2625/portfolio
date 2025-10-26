@@ -1,0 +1,63 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@import "@catppuccin/tailwindcss/mocha.css";
+
+@theme {
+    --color-primary: var(--ctp-mauve-500);
+    --color-secondary: var(--ctp-mocha-flamingo-400);
+    --color-green: var(--ctp-green-400);
+    --color-accent: var(--ctp-mocha-peach-300);
+    --color-background: var(--ctp-mocha-rosewater-50);
+    --color-foreground: var(--ctp-mocha-maroon-900);
+    --color-muted: var(--ctp-mocha-surface0);
+    --color-card: var(--ctp-mocha-mantle);
+    --color-border: var(--ctp-mocha-surface0);
+}
+
+
+
+/* @layer base { */ /*   section { */
+/*     @apply relative mx-auto mt-2 max-w-[800px] px-2; */
+/*   } */
+/* } */
+/**/
+
+/* @theme {                                          */
+/*   /* Catppuccin Mocha Color Palette */            */
+/*   --color-rosewater: #f5e0dc;                     */
+/*   --color-flamingo: #f2cdcd;                      */
+/*   --color-pink: #f5c2e7;                          */
+/*   --color-mauve: #cba6f7; --color-red: #f38ba8;   */
+/*   --color-maroon: #eba0ac;                        */
+/*   --color-peach: #fab387;                         */
+/*   --color-yellow: #f9e2af;                        */
+/*   --color-green: #a6e3a1;                         */
+/*   --color-teal: #94e2d5;                          */
+/*   --color-sky: #89dceb;                           */
+/*   --color-sapphire: #74c7ec;                      */
+/*   --color-blue: #89b4fa;                          */
+/*   --color-lavender: #b4befe;                      */
+/*   --color-text: #cdd6f4;                          */
+/*   --color-subtext1: #bac2de;                      */
+/*   --color-subtext0: #a6adc8;                      */
+/*   --color-overlay2: #9399b2;                      */
+/*   --color-overlay1: #7f849c;                      */
+/*   --color-overlay0: #6c7086;                      */
+/*   --color-surface2: #585b70;                      */
+/*   --color-surface1: #45475a;                      */
+/*   --color-surface0: #313244;                      */
+/*   --color-base: #1e1e2e;                          */
+/*   --color-mantle: #181825;                        */
+/*   --color-crust: #11111b;                         */
+/*                                                   */
+/*   /* Map to Tailwind's color utilities */         */
+/*   --color-primary: var(--color-mauve);            */
+/*   --color-secondary: var(--color-flamingo);       */
+/*   --color-accent: var(--color-peach);             */
+/*   --color-background: var(--color-base);          */
+/*   --color-foreground: var(--color-text);          */
+/*   --color-muted: var(--color-overlay0);           */
+/*   --color-card: var(--color-mantle);              */
+/*   --color-border: var(--color-surface0);          */
+/* }                                                 */
