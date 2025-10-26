@@ -1,5 +1,4 @@
 <script>
-import VerticalTimeline from '$lib/components/VerticalTimeline.svelte';
 import Timeline from '$lib/components/Timeline.svelte';
 import NavBar from '$lib/components/NavBar.svelte';
 import Section from '$lib/components/Section.svelte';
