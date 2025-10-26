@@ -1,6 +1,20 @@
+<script>
 
-
+  import Timeline from '$lib/components/SimpleTimeline.svelte';
+  const events = [
+    { date: '2024-01-01', title: 'Project kickoff', description: 'Kickoff meeting and requirements.' },
+    { date: '2024-02-15', title: 'Alpha release', description: 'Alpha tested by internal team.' , href: 'https://example.com'},
+    { date: '2024-04-01', title: 'Public launch', description: 'Launched to customers.'},
+  ];
+</script>
   <!-- Section 1 -->
+
+  <section class="snap-start h-screen flex justify-center bg-gradient-to-r from-blue-400 to-purple-600 text-white">
+    <h1 class="text-6xl font-bold">Hi, I'm Vaisakh</h1>
+    <Timeline {events} ></Timeline>
+
+  </section>
+
   <section class="snap-start h-screen flex justify-center bg-gradient-to-r from-blue-400 to-purple-600 text-white">
     <h1 class="text-6xl font-bold">Hi, I'm Vaisakh</h1>
   </section>
