@@ -1,9 +1,6 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
 
-@import "@catppuccin/tailwindcss/mocha.css";
-
-
 
 /* @layer base { */ /*   section { */
 /*     @apply relative mx-auto mt-2 max-w-[800px] px-2; */
