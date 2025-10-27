@@ -21,9 +21,7 @@ import {experiences} from '$lib/assets/constants/index.js';
     <Section>
 
 
-        <h1 class="text-4xl font-bold text-[var(--color-green)] mb-8 ">
-        > nix run nixpkgs#<span class="text-[var(--color-primary)]">hello</span> 
-        </h1>
+        <h1 class="text-4xl font-bold text-[var(--color-green)] mb-8 "> > nix run nixpkgs#<span class="text-[var(--color-primary)]">hello</span> </h1>
 
         <span class="text-[var(--color-primary)] [text-shadow:0_0_10px_var(--color-green)]">$ Hello, world!</span> <br/>
         <span class="text-[var(--color-primary)]"> I am Vaiskah K M</span>  
@@ -33,11 +31,23 @@ import {experiences} from '$lib/assets/constants/index.js';
         
     </Section>
 
+
+    <Section>
+        <h1 class="text-4xl font-bold text-[var(--color-green)] mb-8 "> > my hobbies </h1>
+
+        a <i>png</i> is worth a thousand <i>strings</i>
+        <br/>
+        <br/>
+
+        <img src="myroom.png" alt="my room">
+
+    </Section>
+
     <Section>
 
 
         <h1 class="text-2xl font-bold text-[var(--color-green)] mb-8 ">
-        > My timeline
+        > my timeline
         </h1>
 
         <Timeline events={experiences} />
