@@ -179,7 +179,7 @@ const experiences = [
         date: "before 2018",
         description: [
             `<b>Arduino/Raspberry Pi Projects</b>
-  - Electronic projects
+  <li> Electronic projects</li>
   <li>Robots and a Drone<//li>`,
 
         ],
@@ -193,7 +193,7 @@ const experiences = [
         description: [
             `<b>Learning C/C++</b>`,
             `<b>Exhibition Projects</b>
-  - Raspberry Pi & GSM-based Automatic Accident Detection System
+  <li> Raspberry Pi & GSM-based Automatic Accident Detection System
   <li>AI-enabled Plant Monitoring System (IBM's Watson model)<//li>`,
 
         ],
@@ -220,17 +220,17 @@ const experiences = [
         company_name: "HCL TSS",
         icon: "techbee.png",
         iconBg: "#5B23C2",
-        date: "2020 - 2022",
+        date: "2020 - 2021",
         description: [
-            `<b>HCL TechBee Program</b>
+            `<li><b>HCL TechBee Program</b><//li>
   <li>Java, Oracle Database, Linux<//li>`,
-            `<b>Cyber Security</b>
+            `<li><b>Cyber Security</b><//li>
   <li>CTF Challenges, Wireshark, Networking<//li>`,
-            `<b>Java Projects</b>
-  - Web-based Chatting/Video Conferencing App (WebRTC)
-  - React and NextJS
+            `<li><b>Java Projects</b><//li>
+  - <li>Web-based Chatting/Video Conferencing App (WebRTC)<//li>
+  - <li>React and NextJS<//li>
   <li>React Video Sharing Platform (YouTube API)<//li>`,
-            `<b>Arch Linux</b>
+            `<li><b>Arch Linux</b><//li>
   <li>Primary Development System<//li>`,
         ],
     },
@@ -239,18 +239,18 @@ const experiences = [
         company_name: "HCLTech",
         icon: "hcltech.png",
         iconBg: "#5B23C2",
-        date: "2022 - 2023",
+        date: "2021 - 2023",
         description: [
             `<b>Job at Support Role</b>`,
             `<b>Open Source Contributions</b>`,
             `<b>Linux Skills</b>
-  - Switched to Fedora
-  - Developed and Maintained Neovim Plugin ("hologram-latex-preview")
+  <li>Switched to Fedora
+  <li>Developed and Maintained Neovim Plugin ("hologram-latex-preview")
   <li>Contributed to *Lunarvim* Neovim Distribution<//li>`,
             `<b>Visual Basics for Applications (VBA)</b>
   <li>Excel Macros<//li>`,
             `<b>JavaScript</b>
-  - Bookmarklets for Task Automation
+  <li>Bookmarklets for Task Automation
   <li>ServiceNow Clone (Experimentation)<//li>`,
         ],
     },
@@ -261,15 +261,15 @@ const experiences = [
         iconBg: "#5B23C2",
         date: "Jan 2023 - Present",
         description: [
-            `<b>Selenium and SMTP</b>
+            `<li><b>Selenium and SMTP</b>
   <li>Deployed/Maintained 20+ Selenium (Python) Tests<//li>`,
-            `<b>Web Frameworks</b>
+            `<li><b>Web Frameworks</b>
   <li>Learned Svelte and Sveltekit<//li>`,
-            `<b>Rust</b>
+            `<li><b>Rust</b>
   <li>Created Small CLI Applications<//li>`,
-            `<b>PyQT</b>
+            `<li><b>PyQT</b>
   <li>Created Various GUI Apps<//li>`,
-            `<b>NixOS and Declarative Programming</b>
+            `<li><b>NixOS and Declarative Programming</b>
   <li>Learned and Configured NixOS<//li>`,
         ],
     },

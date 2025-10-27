@@ -5,10 +5,25 @@ import Section from '$lib/components/Section.svelte';
 
 
 import {experiences} from '$lib/assets/constants/index.js';
+	import ImageFocus from '$lib/components/ImageFocus.svelte';
+
+
+
+  let focusAreas = [
+    { x: 33.16, y: 86.46, radius: 10, description: 'Custom keyboard' }, // e.g., (100px, 100px) on 800x600
+    { x: 55.10, y: 57.76, radius: 5, description: 'Raspberry pi NAS server with UPS backup' }, // e.g., (300px, 200px)
+    { x: 82.83, y: 71.22, radius: 10, description: 'soldering area' }, // e.g., (500px, 150px)
+    { x: 32.06, y: 53.58, radius: 10, description: 'personal laptop rocking NixOS' }, // e.g., (500px, 150px)
+    { x: 55.79, y: 84.67, radius: 10, description: 'I suck at this' } // e.g., (500px, 150px)
+  ];
+
+
+
 
 </script>
 <!-- <div class="relative w-screen h-screen bg-gray-900 text-white overflow-hidden"> -->
 <!-- <div class="relative mx-auto mt-2.5 max-w-[800px] px-1.5 h-screen"> -->
+
 
 <div class="bg-background text-(--color-white)">
 
@@ -21,7 +36,7 @@ import {experiences} from '$lib/assets/constants/index.js';
     <Section>
 
 
-        <h1 class="text-4xl font-bold text-[var(--color-green)] mb-8 "> > nix run nixpkgs#<span class="text-[var(--color-primary)]">hello</span> </h1>
+        <h1 class=" text-2xl md:text-4xl font-bold text-[var(--color-green)] mb-8 "> > nix run nixpkgs#<span class="text-[var(--color-primary)]">hello</span> </h1>
 
         <span class="text-[var(--color-primary)] [text-shadow:0_0_10px_var(--color-green)]">$ Hello, world!</span> <br/>
         <span class="text-[var(--color-primary)]"> I am Vaiskah K M</span>  
@@ -32,16 +47,24 @@ import {experiences} from '$lib/assets/constants/index.js';
     </Section>
 
 
+
     <Section>
-        <h1 class="text-4xl font-bold text-[var(--color-green)] mb-8 "> > my hobbies </h1>
+        <h1 class="text-2xl md:text-4xl font-bold text-[var(--color-green)] mb-8 "> > my hobbies </h1>
 
         a <i>png</i> is worth a thousand <i>strings</i>
         <br/>
         <br/>
 
-        <img src="myroom.png" alt="my room">
+        <ImageFocus
+            src="myroom.png"
+            alt="Sample landscape"
+            {focusAreas}
+        />
 
     </Section>
+
+
+
 
     <Section>
 
