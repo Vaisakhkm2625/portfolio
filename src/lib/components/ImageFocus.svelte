@@ -188,7 +188,7 @@
   on:mouseenter={handleMouseEnter}
   on:mousemove={handleMouseMove}
   on:mouseleave={handleMouseLeave}
-  class="relative inline-block w-full"
+  class="relative inline-block w-full overflow-hidden"
 >
   <img
     src={src}
