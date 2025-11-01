@@ -60,7 +60,7 @@ import ImageFocus from '$lib/components/ImageFocus.svelte';
 
 
     <Section>
-        <h1 class="text-2xl md:text-4xl font-bold text-[var(--color-green)] mb-8 "> > my hobbies </h1>
+        <h1 class="text-2xl md:text-4xl font-bold text-[var(--color-green)] mb-8 "> > ./my-hobbies </h1>
 
         a <i>png</i> is worth a thousand <i>strings</i>
         <br/>
