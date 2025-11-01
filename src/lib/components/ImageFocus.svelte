@@ -190,12 +190,16 @@
   on:mouseleave={handleMouseLeave}
   class="relative inline-block w-full overflow-hidden"
 >
+
+<div class="border border-green-500 drop-shadow-green-500">
+
   <img
     src={src}
     {alt}
     class="w-full h-auto object-cover transition-all duration-300"
     class:blur-md={isHovering}
   />
+        </div>
   <img
     src={src}
     alt=""
