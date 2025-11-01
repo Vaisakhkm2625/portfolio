@@ -46,7 +46,7 @@ import ImageFocus from '$lib/components/ImageFocus.svelte';
 
         For the Human HRs: <br/> 
         <p class="font-[Sans_Serif] border-2 border-green-500 p-4 mb-4">
-            I am a skilled software developer with expertise in web frameworks like <b>Java - Spring boot</b>, <b> Sveltekit</b> and <b>  React </b>. Additionally, I have experience with <b> Oracle database management </b>, and <b>  Linux server maintenance </b>. Passionate about Linux and free software development, I am a quick learner and enjoy collaborating with others to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life! 
+            I am a skilled software developer with expertise in web frameworks like <b>Java - Spring boot</b>, <b>Sveltekit</b>, <b>React</b> and <b>Python automation testing</b>. Additionally, I have experience with <b> Oracle database management </b>, and <b>  Linux server maintenance </b>. Passionate about Linux and free software development, I am a quick learner and enjoy collaborating with others to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life! 
         </p>
 
 
