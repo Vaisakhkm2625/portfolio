@@ -29,7 +29,9 @@ import ImageFocus from '$lib/components/ImageFocus.svelte';
     </Section>
 
     <Section>
-        <UnderConstruction/>
+        <UnderConstruction>
+            This page is under construction - <a href="https://old-me.nixifying.my.id/"><u>old portfolio</u></a> 
+        </UnderConstruction>
     </Section>
 
     <Section>

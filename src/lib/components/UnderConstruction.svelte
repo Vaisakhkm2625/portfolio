@@ -1,3 +1,9 @@
+<script>
+
+	let { children } = $props();
+
+
+</script>
 
 <marquee class="border-2 border-green-500"
     style=" background-image: repeating-linear-gradient(
@@ -10,7 +16,12 @@
     " >
     ⚠️
     <span class="backdrop-blur-sm">
-         This page is under construction
+
+        {#if children}
+            {@render children()}
+        {:else}
+            This page is under construction 
+        {/if}
 
     </span>
 </marquee>
