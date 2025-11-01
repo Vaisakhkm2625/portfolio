@@ -20,19 +20,17 @@ import {experiences} from '$lib/assets/constants/index.js';
 
 
 
-
 </script>
 <!-- <div class="relative w-screen h-screen bg-gray-900 text-white overflow-hidden"> -->
 <!-- <div class="relative mx-auto mt-2.5 max-w-[800px] px-1.5 h-screen"> -->
 
 
-<div class="bg-background text-(--color-white)">
+<div class="font-[Science_Gothic] bg-black text-(--color-white)">
 
 
     <Section>
         <NavBar/>
     </Section>
-
 
     <Section>
 
@@ -115,3 +113,12 @@ import {experiences} from '$lib/assets/constants/index.js';
 
 
 </div>
+
+<style>
+
+ :global(body) {
+    margin: 0;
+    font-family: Science Gothic;
+  }
+
+</style>
