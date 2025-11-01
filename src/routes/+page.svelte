@@ -41,7 +41,7 @@ import ImageFocus from '$lib/components/ImageFocus.svelte';
         <span class="text-[var(--color-primary)]"> I am Vaisakh K M</span>  
 
 
-        <Typewriter><i>Let's get building stuff... </i> </Typewriter> <br/> <br/>
+        <Typewriter><i>Let’s start building cool stuff... </i> </Typewriter> <br/> <br/>
 
 
         For the Human HRs: <br/> 
