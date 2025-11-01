@@ -71,7 +71,7 @@
   });
 </script>
 
-<div class="font-mono text-lg inline-block">
+<div class="text-lg inline-block">
   <!-- Visible typed output (keeps HTML tags) -->
   <span class="inline-block min-h-[1.5em] align-bottom">
     {@html displayed.replace(/\n/g, '<br>')}

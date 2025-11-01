@@ -2,13 +2,10 @@
 import Timeline from '$lib/components/Timeline.svelte';
 import NavBar from '$lib/components/NavBar.svelte';
 import Section from '$lib/components/Section.svelte';
-
 import Typewriter from '$lib/components/Typewriter.svelte';
 
 import {experiences} from '$lib/assets/constants/index.js';
-	import ImageFocus from '$lib/components/ImageFocus.svelte';
-
-
+import ImageFocus from '$lib/components/ImageFocus.svelte';
 
   let focusAreas = [
     { x: 33.16, y: 86.46, radius: 10, description: 'Custom keyboard' }, // e.g., (100px, 100px) on 800x600
@@ -18,13 +15,11 @@ import {experiences} from '$lib/assets/constants/index.js';
     { x: 55.79, y: 84.67, radius: 10, description: 'I suck at this' } // e.g., (500px, 150px)
   ];
 
-
-
 </script>
 <!-- <div class="relative w-screen h-screen bg-gray-900 text-white overflow-hidden"> -->
 <!-- <div class="relative mx-auto mt-2.5 max-w-[800px] px-1.5 h-screen"> -->
 
-
+<!-- font-[Science_Gothic]  -->
 <div class="font-[Science_Gothic] bg-black text-(--color-white)">
 
 
@@ -45,7 +40,9 @@ import {experiences} from '$lib/assets/constants/index.js';
 
 
         For the Human HRs: <br/> 
-        I am a skilled software developer with expertise in web frameworks like React, Sveltekit, and the Java Spring framework. Additionally, I have experience with Oracle database management and Linux server maintenance. Passionate about Linux and free software development, I am a quick learner and enjoy collaborating with others to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life! <br/> <br/>
+        <p class="font-[Sans_Serif] border-2 border-green-500 p-4 mb-4">
+            I am a skilled software developer with expertise in web frameworks like <b>Java - Spring boot</b>, <b> Sveltekit</b> and <b>  React </b>. Additionally, I have experience with <b> Oracle database management </b>, and <b>  Linux server maintenance </b>. Passionate about Linux and free software development, I am a quick learner and enjoy collaborating with others to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life! 
+        </p>
 
 
         For the Robot HRs: <br/> 
@@ -114,11 +111,3 @@ import {experiences} from '$lib/assets/constants/index.js';
 
 </div>
 
-<style>
-
- :global(body) {
-    margin: 0;
-    font-family: Science Gothic;
-  }
-
-</style>
