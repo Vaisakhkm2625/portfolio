@@ -2,6 +2,7 @@
 import Timeline from '$lib/components/Timeline.svelte';
 import NavBar from '$lib/components/NavBar.svelte';
 import Section from '$lib/components/Section.svelte';
+import UnderConstruction from '$lib/components/UnderConstruction.svelte';
 import Typewriter from '$lib/components/Typewriter.svelte';
 
 import {experiences} from '$lib/assets/constants/index.js';
@@ -25,6 +26,10 @@ import ImageFocus from '$lib/components/ImageFocus.svelte';
 
     <Section>
         <NavBar/>
+    </Section>
+
+    <Section>
+        <UnderConstruction/>
     </Section>
 
     <Section>
