@@ -2,6 +2,26 @@
 @plugin '@tailwindcss/typography';
 
 
+body {
+    /* font-family: "Science Gothic"; */
+  /* src: url('/fonts/yourFont.woff') format('woff'); */
+}
+
+
+/* src/styles/fonts.css */
+@font-face {
+    font-family: 'ScienceGothic'; /* Choose a name for your font */
+    src: url('/fonts/Science Gothic.ttf') format('truetype'); /* Path relative to static/public */
+    font-weight: normal; /* Adjust as needed */
+    font-style: normal; /* Adjust as needed */
+}
+
+@font-face {
+    font-family: 'CyborgPunk'; /* Choose a name for your font */
+    src: url('/fonts/Cyborg Punk.ttf') format('truetype'); /* Path relative to static/public */
+    font-weight: normal; /* Adjust as needed */
+    font-style: normal; /* Adjust as needed */
+}
 /* @layer base { */ /*   section { */
 /*     @apply relative mx-auto mt-2 max-w-[800px] px-2; */
 /*   } */
@@ -9,6 +29,7 @@
 /**/
 
 @theme {
+
    /* Catppuccin Mocha Color Palette */            
    --color-rosewater: #f5e0dc;                     
    --color-flamingo: #f2cdcd;                      
@@ -46,3 +67,4 @@
    --color-card: var(--color-mantle);              
    --color-border: var(--color-surface0);          
 }       
+
