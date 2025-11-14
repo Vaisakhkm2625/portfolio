@@ -14,6 +14,8 @@
 
 {@render children?.()}
 
+
+
 <style>
   .image {
     position: absolute;

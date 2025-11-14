@@ -5,6 +5,7 @@ import Section from '$lib/components/Section.svelte';
 import UnderConstruction from '$lib/components/UnderConstruction.svelte';
 import Typewriter from '$lib/components/Typewriter.svelte';
 import ViewCounter from '$lib/components/ViewCounter.svelte';
+// import Cards from '$lib/components/Card.svelte';
 
 import {experiences} from '$lib/assets/constants/index.js';
 import ImageFocus from '$lib/components/ImageFocus.svelte';
@@ -22,7 +23,10 @@ import ImageFocus from '$lib/components/ImageFocus.svelte';
 <!-- <div class="relative mx-auto mt-2.5 max-w-[800px] px-1.5 h-screen"> -->
 
 <!-- font-[Science_Gothic]  -->
-<div class="font-[Science_Gothic] bg-black text-(--color-white)">
+<div class="font-[ScienceGothic] bg-black text-(--color-white)">
+<!-- <div class="font-[CyborgPunk] bg-black text-(--color-white)"> -->
+
+
 
 
     <Section>
@@ -33,6 +37,12 @@ import ImageFocus from '$lib/components/ImageFocus.svelte';
         <UnderConstruction>
             This page is under construction - <a href="https://old-me.nixifying.my.id/"><u>old portfolio</u></a> 
         </UnderConstruction>
+
+        <!-- <Cards title="hello" description="hi" image="" href="https://old-me.nixifying.my.id/" clickable></Cards> -->
+
+
+
+
     </Section>
 
     <Section>
@@ -41,7 +51,7 @@ import ImageFocus from '$lib/components/ImageFocus.svelte';
         <h1 class=" text-2xl md:text-4xl font-bold text-[var(--color-green)] mb-8 "> > nix run nixpkgs#<span class="text-[var(--color-primary)]">hello</span> </h1>
 
         <span class="text-[var(--color-primary)] [text-shadow:0_0_10px_var(--color-green)]">$ Hello, world!</span> <br/>
-        <span class="text-[var(--color-primary)]"> I am Vaisakh K M</span>  
+        <span class="text-[var(--color-primary)] "> I am Vaisakh K M</span>  
 
 
         <Typewriter><i>Let's build something cool...</i> </Typewriter> <br/> <br/>
@@ -128,7 +138,7 @@ import ImageFocus from '$lib/components/ImageFocus.svelte';
   </div>
 </div>
 
-
+<div>Icons made from <a href="https://www.onlinewebfonts.com/icon">svg icons</a>is licensed by CC BY 4.0</div>
 
 </div>
 
