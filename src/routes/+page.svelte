@@ -116,19 +116,20 @@ import ImageFocus from '$lib/components/ImageFocus.svelte';
     <!-- </div> -->
     <!-- </div> -->
 
-    <div class="relative w-screen h-screen bg-gray-900 text-white overflow-hidden">
-        <!-- Background image with blur -->
-        <div class="absolute inset-0 bg-[url('myroom.png')] bg-cover bg-center filter blur-lg scale-105"></div>
-        <div class="absolute inset-0 bg-background/30 mix-blend-multiply"></div>
-
-        <!-- Name text -->
-        <div class="absolute left-px md:left-1/4 top-1/2 -translate-y-1/2">
-            <h1 class="text-primary text-6xl md:text-8xl font-extrabold tracking-tight font-sans drop-shadow-lg">
-                Hi I am Vaisakh K M
-            </h1>
-        </div>
-    </div>
-
+    <!---->
+    <!-- <div class="relative w-screen h-screen bg-gray-900 text-white overflow-hidden"> -->
+    <!--     <!-- Background image with blur --> -->
+    <!--     <div class="absolute inset-0 bg-[url('myroom.png')] bg-cover bg-center filter blur-lg scale-105"></div> -->
+    <!--     <div class="absolute inset-0 bg-background/30 mix-blend-multiply"></div> -->
+    <!---->
+    <!--     <!-- Name text --> -->
+    <!--     <div class="absolute left-px md:left-1/4 top-1/2 -translate-y-1/2"> -->
+    <!--         <h1 class="text-primary text-6xl md:text-8xl font-extrabold tracking-tight font-sans drop-shadow-lg"> -->
+    <!--             Hi I am Vaisakh K M -->
+    <!--         </h1> -->
+    <!--     </div> -->
+    <!-- </div> -->
+    <!---->
 
 <div class="relative w-screen h-screen">
   <img src="myroom.png" class="absolute inset-0 w-full h-full object-cover" />
