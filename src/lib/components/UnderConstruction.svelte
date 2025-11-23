@@ -5,7 +5,8 @@
 
 </script>
 
-<marquee class="border-2 border-green-500"
+<!-- was using marquee here -->
+<div class="border-2 border-green-500 text-center "
     style=" background-image: repeating-linear-gradient(
         45deg,
         #22c55e 0,
@@ -24,4 +25,4 @@
         {/if}
 
     </span>
-</marquee>
+</div>
