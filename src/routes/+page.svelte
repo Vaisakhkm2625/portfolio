@@ -46,7 +46,8 @@ import ImageFocus from '$lib/components/ImageFocus.svelte';
     </Section>
 
     <Section>
-
+        <div class="max-w-5xl mx-auto flex flex-col md:flex-row gap-8 md:gap-12 items-start">
+            <div class="flex-1">
 
         <h1 class=" text-2xl md:text-4xl font-bold text-[var(--color-green)] mb-8 "> > nix run nixpkgs#<span class="text-[var(--color-primary)]">hello</span> </h1>
 
@@ -56,6 +57,18 @@ import ImageFocus from '$lib/components/ImageFocus.svelte';
 
         <Typewriter><i>Let's build something cool...</i> </Typewriter> <br/> <br/>
 
+            </div>
+
+            <div class="hidden md:block flex-shrink-0">
+                <img 
+                    src="vaisakh_flpped.png" 
+                    alt="Vaisakh K M"
+                    class="w-32 h-32 md:w-40 md:h-40 object-cover rounded-full mr-5 border-1 border-[var(--color-green)] shadow-lg shadow-[var(--color-green)]/30"
+                />
+                <!-- class="w-32 h-32 md:w-40 md:h-40 object-cover rounded-full border-4 border-[var(--color-green)] shadow-lg shadow-[var(--color-green)]/30" -->
+            </div>
+
+            </div>
 
         For the Human HRs: <br/>
 
