@@ -22,10 +22,10 @@ import ImageFocus from '$lib/components/ImageFocus.svelte';
 <!-- <div class="relative w-screen h-screen bg-gray-900 text-white overflow-hidden"> -->
 <!-- <div class="relative mx-auto mt-2.5 max-w-[800px] px-1.5 h-screen"> -->
 
-<!-- font-[Science_Gothic]  -->
-<div class="font-[ScienceGothic] bg-black text-(--color-white)">
-<!-- <div class="font-[CyborgPunk] bg-black text-(--color-white)"> -->
 
+<!-- font-[Science_Gothic]  -->
+<div class="font-[ScienceGothic] text-(--color-white)"> 
+<!-- <div class="font-[CyborgPunk] bg-black text-(--color-white)"> -->
 
 
 

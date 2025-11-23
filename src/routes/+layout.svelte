@@ -2,6 +2,8 @@
 	import '../app.css';
 	import favicon from '$lib/assets/favicon.svg';
 
+  import Background from "$lib/components/Background.svelte";
+
 	let { children } = $props();
 </script>
 
@@ -10,7 +12,9 @@
 </svelte:head>
 
 
-<div class="image"></div>
+<!-- <div class="image"></div> -->
+
+<Background />
 
 {@render children?.()}
 
